@@ -14,7 +14,7 @@
 /* Global Styles */
 body {
     font-family: var(--primary-font);
-    padding-top: 56px;
+    padding-top: 61px;
 }
 
 /* Buttons */
@@ -29,6 +29,7 @@ body {
 /* Nav Bar */
 #navbar {
     background-color: var(--primary-color);
+    font-size: 1.2rem;
 }
 
 #navbar .logo {
