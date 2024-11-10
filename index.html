@@ -15,10 +15,13 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- Class set on body to work with mt-auto in footer to ensure it always stays at the bottom of the page -->
+<body class="d-flex flex-column min-vh-100">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/YuBaBa_Logo_With_Transparency.png" alt="Yubaba band logo" class="logo">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,22 +31,45 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gigs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     <header>
-
+        <section id="hero" class="text-center">
+            <a href="booking.html" class="btn btn-primary" id="booking-button">Book us!</a>
+        </section>
     </header>
     <main>
-        <section id="hero">
-            <div></div>
-        </section>
-    </main>
-    <footer>
 
+    </main>
+    <footer class="mt-auto">
+<div class="container section">
+    <div class="row">
+        <div class="social-links">
+            <a href="https://www.instagram.com/yubababand" target="_blank"
+            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/yubababand" target="_blank"
+            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener">
+            <i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.youtube.com/@yubababand2631" target="_blank" aria-label="Visit our X page (opens in a new tab)"
+            rel="noopener">
+            <i class="fa-brands fa-youtube"></i></a>
+            <a href="https://open.spotify.com/artist/191gLWZyzGTMIQPaPG74kt?si=kstWbQECQzCGCEJo84rfbg&nd=1&dlsi=5965e639dbbd4f96" target="_blank" aria-label="Visit our X page (opens in a new tab)"
+            rel="noopener">
+            <i class="fa-brands fa-spotify"></i></a>
+        </div>
+    </div>
+</div>
     </footer>
 
     <!-- Bootstrap JS -->

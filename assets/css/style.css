@@ -11,10 +11,40 @@
     --highlight-color-light: #68BEC4;
 }
 
+/* Global Styles */
+body {
+    font-family: var(--primary-font);
+    padding-top: 56px;
+}
+
+/* Buttons */
+#booking-button {
+    background-color: var(--highlight-color);
+    border: none;
+    width: 150px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Nav Bar */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 120px;
+}
+
 /* Hero Section */
 #hero {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background: url("/assets/images/hero.jpg") no-repeat center center/cover;
+    background-position: 50% 28%;
     position: relative;
   }
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+}
