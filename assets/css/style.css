@@ -49,3 +49,8 @@ body {
 footer {
     background-color: var(--primary-color);
 }
+
+.social-links i{
+    font-size: 1.8rem;
+    color: var(--highlight-color);
+}
