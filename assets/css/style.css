@@ -6,7 +6,7 @@
     --primary-font: 'Abel', sans-serif;
     --secondary-font: 'Source Code Pro';
     --primary-color: #F4F1BB; /* Lemon chiffon */
-    --secondary-color: #9BC1BC; /* Ash gray */
+    --secondary-color: hwb(172 84% 7%); /* Ash gray */
     --highlight-color: #5CA4A9; /* Verdigris */
     --highlight-color-light: #68BEC4;
 }
@@ -15,6 +15,7 @@
 body {
     font-family: var(--primary-font);
     padding-top: 61px;
+    background-color: var(--secondary-color);
 }
 
 /* Buttons */
@@ -45,12 +46,23 @@ body {
     position: relative;
   }
 
+
+/* Cards */
+
+.card-body {
+    height: 150px;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .social-links i{
     font-size: 1.8rem;
     color: black;
+    padding-left: 10px;
+    padding-right: 10px;
 }
