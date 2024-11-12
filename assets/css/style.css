@@ -33,6 +33,10 @@ body {
     opacity: 0.9;
 }
 
+.hero-booking-button:hover {
+    background-color: var(--highlight-color-light);
+}
+
 .form-submit-button {
     background-color: var(--highlight-color);
     color: white;
@@ -43,7 +47,21 @@ body {
     opacity: 0.9;
 }
 
-.hero-booking-button:hover {
+.form-submit-button:hover {
+    background-color: var(--highlight-color-light);
+}
+
+.home-button {
+    background-color: var(--highlight-color);
+    color: white;
+    border: none;
+    width: 300px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.home-button:hover {
     background-color: var(--highlight-color-light);
 }
 
