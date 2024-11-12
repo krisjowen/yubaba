@@ -33,6 +33,16 @@ body {
     opacity: 0.9;
 }
 
+.form-submit-button {
+    background-color: var(--highlight-color);
+    color: white;
+    border: none;
+    width: 150px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
 .hero-booking-button:hover {
     background-color: var(--highlight-color-light);
 }
@@ -69,8 +79,7 @@ body {
 }
 
 /* Youtube Video */
-.youtube-video {
-    width: 90%;
+.youtube-video-index {
     display: block;
     margin: 20px auto;
     text-align: center;

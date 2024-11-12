@@ -16,55 +16,111 @@
 </head>
 
 <!-- Class set on body to work with mt-auto in footer to ensure it always stays at the bottom of the page -->
+
 <body class="d-flex flex-column min-vh-100">
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/images/yubaba-logo.png" alt="Yubaba band logo" class="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active"href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active"  aria-current="page" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/yubaba-logo.png" alt="Yubaba band logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-    <header>
+    </nav>
+    <header class="container section">
+        <div class="row">
+            <div class="col-12 col-md-6 text-xl-start">
+                <h2>Get in touch!</h2>
+                <p>Whether it's a wedding, a birthday party or you run a venue, we would love to hear from you and to
+                    take part
+                    in your event! Fill in the details below and we will get in touch to see how we can tailor what we
+                    do to
+                    suit your needs.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <iframe width="90%" height="300px" src="https://www.youtube.com/embed/6Rl4hedQ574?si=DCaJXNem7S0kzE1k"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </div>
 
     </header>
     <main>
-
+        <section id="booking-form" class="container-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                <form action="success.html" method="GET">
+                    <div class="row">
+                        <div class="col-10 col-lg-5 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="Name" required>
+                        </div>
+                        <div class="col-10 col-lg-5 mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="col-10 col-lg-5 mb-3">
+                            <label for="event-type" class="form-label">Event Type</label>
+                            <select id="event-type" class="form-select" aria-label="Default select example">
+                                <option selected>Please select...</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="birthday">Birthday Party</option>
+                                <option value="anniversary">Anniversary</option>
+                                <option value="venue">Hire for a venue</option>
+                            </select>
+                        </div>
+                        <div class="col-10 col-lg-5 mb-3">
+                            <label for="date" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                        <div class="col-10 col-lg-5 mb-3">
+                            <label for="other" class="form-label">Anything else we should know?</label>
+                            <textarea class="form-control" id="other" rows="3"></textarea>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <button type="submit" class="btn form-submit-button">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="mt-auto">
-<div class="container section">
-    <div class="row">
-        <div class="social-links text-center">
-            <a href="https://www.instagram.com/yubababand" target="_blank"
-            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/yubababand" target="_blank"
-            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener">
-            <i class="fa-brands fa-square-facebook"></i></a>
-        <a href="https://www.youtube.com/@yubababand2631" target="_blank" aria-label="Visit our Youtube page (opens in a new tab)"
-            rel="noopener">
-            <i class="fa-brands fa-youtube"></i></a>
-            <a href="https://open.spotify.com/artist/191gLWZyzGTMIQPaPG74kt?si=kstWbQECQzCGCEJo84rfbg&nd=1&dlsi=5965e639dbbd4f96" target="_blank" aria-label="Visit our Spotify page (opens in a new tab)"
-            rel="noopener">
-            <i class="fa-brands fa-spotify"></i></a>
+        <div class="container section">
+            <div class="row">
+                <div class="social-links text-center">
+                    <a href="https://www.instagram.com/yubababand" target="_blank"
+                        aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/yubababand" target="_blank"
+                        aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener">
+                        <i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.youtube.com/@yubababand2631" target="_blank"
+                        aria-label="Visit our Youtube page (opens in a new tab)" rel="noopener">
+                        <i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://open.spotify.com/artist/191gLWZyzGTMIQPaPG74kt?si=kstWbQECQzCGCEJo84rfbg&nd=1&dlsi=5965e639dbbd4f96"
+                        target="_blank" aria-label="Visit our Spotify page (opens in a new tab)" rel="noopener">
+                        <i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
     </footer>
 
     <!-- Bootstrap JS -->
