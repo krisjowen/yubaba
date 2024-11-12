@@ -19,12 +19,20 @@ body {
 }
 
 /* Buttons */
-#booking-button {
+.hero-booking-button {
     background-color: var(--highlight-color);
+    color: white;
     border: none;
-    width: 150px;
+    width: 250px;
     font-size: 1.8rem;
     font-weight: bold;
+    position:absolute;
+    bottom: 100px;
+    opacity: 0.9;
+}
+
+.hero-booking-button:hover {
+    background-color: var(--highlight-color-light);
 }
 
 /* Nav Bar */
@@ -44,6 +52,7 @@ body {
     background: url("../images/hero-min.jpg") no-repeat center center/cover;
     background-position: 50% 28%;
     position: relative;
+    text-align: center;
   }
 
 /* Profile section */
@@ -59,6 +68,10 @@ body {
   }
 
 /* Cards */
+
+.card {
+    margin: 20px;
+}
 
 .card-body {
     height: 150px;
