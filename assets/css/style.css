@@ -46,6 +46,12 @@ body {
     position: relative;
   }
 
+/* Profile section */
+.profiles {
+    padding: 10px 20px;
+    background-color: red;
+}
+
 /* Carousel */
 .carousel-inner > .carousel-item > img {
     width:640px;
