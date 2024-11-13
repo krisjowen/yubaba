@@ -45,13 +45,19 @@
     </nav>
     <header class="container section">
         <div class="row">
-            <div class="col-12 col-lg-6 text-xl-start align-content-center">
-                <h2>Get in touch!</h2>
-                <p>Whether it's a wedding, a birthday party or you run a venue, we would love to hear from you and to
-                    take part
-                    in your event! Fill in the details below and we will get in touch to see how we can tailor what we
-                    do to
-                    suit your needs.</p>
+            <div class="col-12 col-lg-6 text-xl-start">
+                <h1 class="display-3">Get in touch!</h2>
+                    <p>Whether it's a wedding, a birthday party or you run a venue, we would love to hear from you and
+                        to
+                        take part
+                        in your event! Fill in the details below and we will get in touch to see how we can tailor what
+                        we
+                        do to
+                        suit your needs.
+                        <br>
+                        <br>
+                        Rest assured we come prepared for any occasion. We are fully equipped with professional equipment, lights and PA system. We can provide a playlist to cover any breaks in the set and can be flexible in providing DJ sets or stripped down sets for lighter moments.</p>
+                    </p>
             </div>
             <div class="col-12 col-lg-6">
                 <iframe width="90%" height="300px" src="https://www.youtube.com/embed/6Rl4hedQ574?si=DCaJXNem7S0kzE1k"
@@ -65,39 +71,39 @@
         <section id="booking-form" class="container-section">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
-                <form action="success.html" method="GET">
-                    <div class="row justify-content-center">
-                        <div class="col-10 col-lg-5 mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="Name" required>
+                    <form action="success.html" method="GET">
+                        <div class="row justify-content-center">
+                            <div class="col-10 col-lg-5 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="Name" required>
+                            </div>
+                            <div class="col-10 col-lg-5 mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-10 col-lg-5 mb-3">
+                                <label for="event-type" class="form-label">Event Type</label>
+                                <select id="event-type" class="form-select" aria-label="Default select example">
+                                    <option selected>Please select...</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="birthday">Birthday Party</option>
+                                    <option value="anniversary">Anniversary</option>
+                                    <option value="venue">Hire for a venue</option>
+                                </select>
+                            </div>
+                            <div class="col-10 col-lg-5 mb-3">
+                                <label for="date" class="form-label">Date</label>
+                                <input type="date" class="form-control" id="date" required>
+                            </div>
+                            <div class="col-10 mb-3">
+                                <label for="other" class="form-label">Anything else we should know?</label>
+                                <textarea class="form-control" id="other" rows="3"></textarea>
+                            </div>
+                            <div class="col-10 mb-3">
+                                <button type="submit" class="btn form-submit-button">Submit</button>
+                            </div>
                         </div>
-                        <div class="col-10 col-lg-5 mb-3">
-                            <label for="email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="col-10 col-lg-5 mb-3">
-                            <label for="event-type" class="form-label">Event Type</label>
-                            <select id="event-type" class="form-select" aria-label="Default select example">
-                                <option selected>Please select...</option>
-                                <option value="wedding">Wedding</option>
-                                <option value="birthday">Birthday Party</option>
-                                <option value="anniversary">Anniversary</option>
-                                <option value="venue">Hire for a venue</option>
-                            </select>
-                        </div>
-                        <div class="col-10 col-lg-5 mb-3">
-                            <label for="date" class="form-label">Date</label>
-                            <input type="date" class="form-control" id="date" required>
-                        </div>
-                        <div class="col-10 mb-3">
-                            <label for="other" class="form-label">Anything else we should know?</label>
-                            <textarea class="form-control" id="other" rows="3"></textarea>
-                        </div>
-                        <div class="col-10 mb-3">
-                            <button type="submit" class="btn form-submit-button">Submit</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
                 </div>
             </div>
         </section>
