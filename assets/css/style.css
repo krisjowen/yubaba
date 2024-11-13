@@ -26,6 +26,12 @@ header>.row {
     margin-bottom: 40px;
 }
 
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 100vw;
+  }
+
 /* Buttons */
 .hero-booking-button {
     background-color: var(--highlight-color);
@@ -100,12 +106,6 @@ header>.row {
     opacity: 75%;
 }
 
-/* Youtube Video */
-iframe {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    height: auto;
-}
 
 /* Profile section */
 
