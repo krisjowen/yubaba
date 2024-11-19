@@ -19,6 +19,9 @@ body {
     font-family: var(--primary-font);
     padding-top: 58px;
     background-color: var(--secondary-color);
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header>.row {
@@ -31,6 +34,10 @@ iframe {
     width: 100%;
     max-width: 100vw;
   }
+
+p {
+    font-size: 1.2rem;
+}
 
 /* Buttons */
 .hero-booking-button {
@@ -89,6 +96,12 @@ iframe {
     width: 120px;
 }
 
+body, #navbar > .container-fluid {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Hero Section */
 #hero {
     background: url("../images/hero-min.jpg") no-repeat center center/cover;
@@ -126,7 +139,15 @@ iframe {
 }
 
 .card-body {
-    height: 150px;
+    height: 220px;
+}
+
+/* Booking form */
+#booking-form {
+    font-size: 1.2rem;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /* Footer */
@@ -134,6 +155,7 @@ footer {
     background-color: var(--primary-color);
     padding-top: 15px;
     padding-bottom: 15px;
+    max-width: none;
 }
 
 .social-links i {
