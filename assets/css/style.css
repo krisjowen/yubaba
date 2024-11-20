@@ -39,6 +39,14 @@ p {
     font-size: 1.2rem;
 }
 
+section > h1 {
+    visibility: hidden;
+}
+
+section > h3 {
+    visibility: hidden;
+}
+
 /* Buttons */
 .hero-booking-button {
     background-color: var(--highlight-color);
@@ -118,7 +126,6 @@ body, #navbar > .container-fluid {
     background-color: white;
     opacity: 75%;
 }
-
 
 /* Profile section */
 
