@@ -4,6 +4,11 @@
 
 This site has been built as the first of four projects as part of my Code Insitute web development diploma. It is a website for a band that provides images and videos to showcase their work as well as a booking form for any interested clients to get in touch with them.
 
+
+# UX
+
+## Strategy
+
 The user stories were defined as follows:
 
 - As a site visitor, I want to be able to see details about the band and to contact them with details of any potential bookings.
@@ -15,24 +20,38 @@ The acceptance criteria were outlined as below:
 - Booking form in place
 - Profile of band and its members
 
-# UX
-
-## Strategy
-
 ## Scope
+
+Decision to use a four page website. Future developments could include gig list, set lists and a more elaborate booking form
 
 ## Structure
 
+Include sitemap
+
 ## Skeleton
+
+Include wireframes
 
 ## Surface
 
-# Testing
+Font and colour choices, hero image, videos, 
 
-# Future Improvements
+# Features
+
+## Existing Features
+
+## Future improvements
 
 # Technologies Used
 
+HTML, CSS and Bootstrap
+
+# Testing
+
+Links, Lighthouse, responsiveness
+
 # Deployment
+
+Github Pages
 
 # Credits
