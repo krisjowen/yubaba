@@ -112,6 +112,16 @@ body, #navbar > .container-fluid {
     margin-right: auto;
 }
 
+.active > a{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.nav-link:hover {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: var(--primary-color);
+}
+
 /* Hero Section */
 #hero {
     background: url("../images/hero-min.webp") no-repeat center center/cover;
