@@ -1,9 +1,10 @@
 # Yubaba
 
-[View deployed site] (https://krisjowen.github.io/yubaba/index.html)
+[View deployed site](https://krisjowen.github.io/yubaba/index.html)
 
 This site has been built as the first of four projects as part of my Code Insitute web development diploma. It is a website for a band that provides images and videos to showcase their work as well as a booking form for any interested clients to get in touch with them.
 
+The band currently have a wordpress website built by one of the members. There is a desire to move away from Wordpress to allow for greater customisation and potentially more features in the future.
 
 # UX
 
@@ -19,43 +20,99 @@ The acceptance criteria were outlined as below:
 - High quality image of band available
 - Booking form in place
 - Profile of band and its members
+- Site is responsive
 
 ## Scope
 
-Decision to use a four page website. Future developments could include gig list, set lists and a more elaborate booking form
+In order to achieve a mvp it has been decided that the site should allow any potential customers to get both video and visual indications of what the band's style is. Additionally, any site users should be able to utilise a form to get in touch with the band with any potential booking inquiries. 
 
 ## Structure
 
-Include sitemap
+A basic structure has been defined which can be seen [here](https://github.com/krisjowen/yubaba/blob/main/assets/wireframes/Sitemap.png).
+
+Inline with the user stories and acceptance criteria, the structure at present has been decided as the below:
+
+- Home (index.html) - a basic landing page with an image of the band and a video
+- About (about.html) - a section with details of the band and individual member profiles
+- Contact (contact.html) - a page containing a form for any interested parties to get in touch
+- Message confirmation (success.html) - a page informing a user their message has been sent
+
+Additionally, each page should have an easy to use navigation bar to move around the site and a footer containing links to the band's various social media pages.
 
 ## Skeleton
 
-Include wireframes
+Wireframes to produce a draft of what each page should look like were created using Balsamiq:
+
+- [index.html](https://github.com/krisjowen/yubaba/blob/main/assets/wireframes/Home.png)
+- [about.html](https://github.com/krisjowen/yubaba/blob/main/assets/wireframes/About.png)
+- [contact.html](https://github.com/krisjowen/yubaba/blob/main/assets/wireframes/Contact.png)
+- [success.html](https://github.com/krisjowen/yubaba/blob/main/assets/wireframes/Success.png)
+
+The desire is to keep the content on the pages relatively clean and let the visual aspects do the talking.
 
 ## Surface
 
-Font and colour choices, hero image, videos, 
+### Font
+
+The band had an existing Wordpress website that utilised the 'Abel' Google font. This looked to be working well and so this has also been utilised here.
+
+### Colours
+
+The band's current website is somewhat dark and moody. In order to attract more bookings a decision has been made to introduce a more inviting and colourful palette. Pastel blues and yellow were used and these complement the band's existing images well. 
+
+### Media
+
+The band already had possession of a number of high quality images and these were seen as an effective way to showcase their look and style. Additionally, some of their videos are available on Youtube so this was seen as a simple way to display some of their content. They also have music available on Spotify but the added benefit of having visual content via Youtube was seen as a preference. 
 
 # Features
 
 ## Existing Features
 
+### Global Features
+
+- A navigation bar is fixed to the top of the page to help users find their way around the site
+- The band's logo is visible at the top left of the page at all times and links to index.html
+- To keep the site responsive and help with mobile users the nav bar links collapse into a hamburger menu at smaller screen sizes
+- The footer contains links to the band's social media pages. These utilise images from Font Awesome and open in a new tab
+
+### index.html
+
+- The hero image has been set at 100% of the viewport height to give maximum visual impact when landing on what is the home page
+- The band's logo is laid over the hero image to increase the visibility of whose site it is to any users
+- The band logo disappears at smaller screen sizes as it is superfluous due to the logo in the nav bar when viewing at a smaller size
+- A book us button is immediately visible on any screen size as that is the main outcome the band want from site visitors
+- A Youtube video is embedded beneath the hero image
+
+### about.html
+
+### contact.html
+
+### success.html
+
 ## Future improvements
 
 # Technologies Used
 
-* [HTML](https://html.spec.whatwg.org/)
-* [CSS](https://www.w3.org/TR/CSS/#css)
-* [Bootstrap](https://getbootstrap.com/) - Bootstrap was utilised for various aspects including, but not limited to, the nav bar, carousel, form and member profile cards
-* [Google Fonts](https://fonts.google.com/specimen/Abel) - the Abel and Macondo Google fonts have been used throughout this project
-* [Font Awesome](https://fontawesome.com/) - the social icons in each page's footer are from Font Awesome
-* [Balsamiq](https://balsamiq.com/) - the wireframes for this project were constructed using Balsamiq
-* [Git](https://git-scm.com/) - Git was utilised for version control via Gitpod
-* [Github](https://www/github.com) - utilised to store the various versions of the project uploaded via Gitpot  
-* [Image Compressor](https://imagecompressor.com/) - used to compress images and reduce their file size
+- [HTML](https://html.spec.whatwg.org/)
+- [CSS](https://www.w3.org/TR/CSS/#css)
+- [Bootstrap](https://getbootstrap.com/) - Bootstrap was utilised for various aspects including, but not limited to, the nav bar, carousel, form and member profile cards
+- [Google Fonts](https://fonts.google.com/specimen/Abel) - the Abel and Macondo Google fonts have been used throughout this project
+- [Font Awesome](https://fontawesome.com/) - the social icons in each page's footer are from Font Awesome
+- [Balsamiq](https://balsamiq.com/) - the wireframes for this project were constructed using Balsamiq
+- [Git](https://git-scm.com/) - Git was utilised for version control via Gitpod
+- [Github](https://www/github.com) - utilised to store the various versions of the project uploaded via Gitpot  
+- [Image Compressor](https://imagecompressor.com/) - used to compress images and reduce their file size
+- [Auto Prefixer](https://autoprefixer.github.io/) - this site helps with browser compatibility by adding different browser prefixed to the style.css file where required
 
 
 # Testing
+
+## Code Validation
+
+All pages were put through the below validation tools and returned no errors:
+
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://validator.w3.org/)
 
 ## Links
 
@@ -73,9 +130,9 @@ Across all four pages the four social links within the footer link through to th
 
 The various buttons across the site link correctly. There are three variations
 
-* Book Us - this links through to contact.html where it appears
-* Submit - this appears on contact.html and links to success.html
-* Return to the home page - this is available on success.html and correctly links through to index.html
+- Book Us - this links through to contact.html where it appears
+- Submit - this appears on contact.html and links to success.html
+- Return to the home page - this is available on success.html and correctly links through to index.html
 
 ## Responsiveness
 
@@ -106,10 +163,28 @@ Similarly to the index.html page the best practices score is 78 due to the cooki
 
 The 78 score is again due to the cookies from the Youtube embedded code
 
+## Browser Compatibility
 
 # Deployment
 
-Github Pages
+## Deploying to Github Page
+
+The project was monitored by utilising the Github pages feature. This was created using the below steps:
+
+1. From the [main project page](https://github.com/krisjowen/yubaba), click on the settings tab
+2. Choose 'Pages' from the menu on the left
+3. Under Build and Deployment and then Branch, main and then root were selected and the options saved
+4. Once created, from the main project page again there is a 'Deployments' option on the right hand menu. This shows the URL for the Github Page
+
+## Cloning Project
+
+Details of this can be found on Github's own [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+1. Within Github, navigate to the [main page](https://github.com/krisjowen/yubaba) of the repository
+2. Above the list of files, click on the green 'Code' button
+3. For HTTPS integrations, copy the web url given under the 'Local' tab
+4. Within your terminal, navigate to the desired file path. 
+5. Type git clone then paste the code that has been copied (https://github.com/krisjowen/yubaba.git) and hit enter.
 
 # Credits
 
