@@ -69,7 +69,7 @@ section > h3 {
 }
 
 .form-submit-button {
-    background-color: var(--highlight-color);
+    background-color: #c04a81;
     color: white;
     border: none;
     width: 150px;
@@ -83,10 +83,10 @@ section > h3 {
 }
 
 .home-button {
-    background-color: var(--highlight-color);
+    background-color: #c04a81;
     color: white;
     border: none;
-    width: 300px;
+    width: 400px;
     font-size: 1.8rem;
     font-weight: bold;
     opacity: 0.9;
