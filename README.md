@@ -101,7 +101,7 @@ The band already had possession of a number of high quality images and these wer
 - [Balsamiq](https://balsamiq.com/) - the wireframes for this project were constructed using Balsamiq
 - [Git](https://git-scm.com/) - Git was utilised for version control via Gitpod
 - [Github](https://www/github.com) - utilised to store the various versions of the project uploaded via Gitpot  
-- [Image Compressor](https://imagecompressor.com/) - used to compress images and reduce their file size
+- [Tiny PNG](https://tinypng.com/) - used to compress images and reduce their file size
 - [Auto Prefixer](https://autoprefixer.github.io/) - this site helps with browser compatibility by adding different browser prefixed to the style.css file where required
 
 
@@ -144,8 +144,8 @@ Page | Performance | Accessibility | Best Practices
 --- | --- | --- | ---
 index.html | 82 | 100 | 78
 about.html | 78 | 100 | 100
-contact.html | 91 | 96 | 78
-succcess.html | 98 | 95 | 78
+contact.html | 99 | 100 | 78
+succcess.html | 98 | 100 | 78
 
 ### index.html
 
@@ -164,6 +164,8 @@ Similarly to the index.html page the best practices score is 78 due to the cooki
 The 78 score is again due to the cookies from the Youtube embedded code
 
 ## Browser Compatibility
+
+
 
 # Deployment
 
