@@ -103,6 +103,16 @@ The band already had possession of a number of high quality images and these wer
 
 ## Future improvements
 
+### Additional Content
+
+#### Gig List
+
+To further attract user engagement a list of the band's upcoming performances would be a good addition. This could form part of the home page or be an additional page. It would require ongoing maintenance, however, and so calendar integrations may need to be considered so that updating the list could be handled in a low-tech manner.
+
+#### 
+
+### Bugs
+
 
 
 # Technologies Used

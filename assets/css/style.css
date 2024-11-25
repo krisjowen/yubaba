@@ -112,15 +112,15 @@ body, #navbar > .container-fluid {
     margin-right: auto;
 }
 
-.active > a{
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-}
-
 .nav-link:hover {
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color: rgba(0,0,0,0.5);
     color: var(--primary-color);
 }
+
+.active {
+    background-color: rgba(0,0,0,0.5) !important;
+    color: var(--primary-color) !important;
+  }
 
 /* Hero Section */
 #hero {
