@@ -142,18 +142,18 @@ Responsiveness has been tested with Google Chrome dev tools and emulating variou
 
 Page | Performance | Accessibility | Best Practices
 --- | --- | --- | ---
-index.html | 82 | 100 | 78
-about.html | 78 | 100 | 100
+index.html | 88 | 100 | 78
+about.html | 88 | 100 | 100
 contact.html | 99 | 100 | 78
 succcess.html | 98 | 100 | 78
 
 ### index.html
 
-The 82 for performance is attributed to the hero image having a long render delay. Despite several attempts to reduce the image size I was unable to bring this down to an acceptable level. The 78 best practices score was due to third party cookies that were introduced with the Youtube embed code.
+The 88 for performance is attributed to the hero image having a long render delay. The 78 best practices score was due to third party cookies that were introduced with the Youtube embed code.
 
 ### about.html
 
-The 78 for performance was similar to the index.html page in that I was unable to bring the render delay for some of the page images down to a respetable level.
+The 88 for performance was similar to the index.html page in that I was unable to bring the render delay for some of the page images down to a better level. The page contains 10 images that have all been compressed using Tiny PNG.
 
 ### contact.html
 
