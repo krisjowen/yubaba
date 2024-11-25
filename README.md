@@ -85,11 +85,25 @@ The band already had possession of a number of high quality images and these wer
 
 ### about.html
 
+- Bootstrap has utilised to present two rows of responsive content. The first row contains a band profile and a carousel of images whilst the second contains individual member profiles
+- A carousel displays four images of the band in action
+- Six Bootstrap cards are used to display individual images of each band member and a short profile
+
 ### contact.html
+
+- Bootstrap has again been used to present a responsive page. The rows are for the text section and video and a second row for the booking form
+- A Youtube video is embedded to showcase the bands content
+- A simple contact form is in place to capture any interested user's name, email address, type of event, date and a text area for any additional information. The name, email and date fields have been marked with asterisk to denote them being mandatory
 
 ### success.html
 
+- A short text message thanks the user for their form submission
+- A Youtube video is in place to further showcase the band's content
+- A button links back to the homepage
+
 ## Future improvements
+
+
 
 # Technologies Used
 
@@ -136,7 +150,7 @@ The various buttons across the site link correctly. There are three variations
 
 ## Responsiveness
 
-Responsiveness has been tested with Google Chrome dev tools and emulating various device settings.
+Responsiveness has been tested with Google Chrome dev tools and emulating various device settings. This has ensured that all content remains accessible and easily viewable regardless of screen size.
 
 ## Lighthouse
 
@@ -165,7 +179,7 @@ The 78 score is again due to the cookies from the Youtube embedded code
 
 ## Browser Compatibility
 
-
+All pages and functionality have been tested in Google Chrome, Firefox and Safari and show expected and consitent results in each browser
 
 # Deployment
 
