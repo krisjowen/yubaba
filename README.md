@@ -2,9 +2,7 @@
 
 [View deployed site](https://krisjowen.github.io/yubaba/index.html)
 
-This site has been built as the first of four projects as part of my Code Insitute web development diploma. It is a website for a band that provides images and videos to showcase their work as well as a booking form for any interested clients to get in touch with them.
-
-The band currently have a wordpress website built by one of the members. There is a desire to move away from Wordpress to allow for greater customisation and potentially more features in the future.
+Yubaba are a six piece band based in North Wales that require a new website to replace their existing Word Press one. A website is key for the band to advertise themselves online and also a way to showcase their identity and style. A clean, stylish website is also a useful sales tool to attract potential customers and for those customers to interact with the band.
 
 # UX
 
@@ -230,3 +228,5 @@ On each html page there is a section of code with the below comment:
 Class set on body to work with mt-auto in footer to ensure it always stays at the bottom of the page
 
 This code was taken directly from the Code Institute's Boardwalk Games page found [here](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode)
+
+The project also made use of a template offered by Code Institute to preinstall some tools. The details of this can be found [here](https://github.com/Code-Institute-Org/ci-full-template)
