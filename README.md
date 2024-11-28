@@ -111,19 +111,6 @@ To further attract user engagement a list of the band's upcoming performances wo
 
 There is good content already in place to display the band's output. However, it would be useful to look at ways of including audio clips or songs. Spotify offers an embedded code and the band's music is on there but the integration potentially lacks customisation options.
 
-### Bugs
-
-#### Navbar Link Styling
-
-To aid user navigation hover and active stylings have been added to the nav bar links. Whilst these work well and clearly show which page a user is currently on and which option they are hovering over, the implementation could be improved. The CSS for this is below:
-
-.active {
-    background-color: rgba(0,0,0,0.5) !important;
-    color: var(--primary-color) !important;
-  }
-
-I would prefer to find a solution that does not target .active globally but is restricted to the nav bar links. I would also like to find a solution that does not require use of the !important due it not generally being considered best practice to utilise it.
-
 # Technologies Used
 
 - [HTML](https://html.spec.whatwg.org/)
