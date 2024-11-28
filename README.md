@@ -153,11 +153,11 @@ All links have been tested to ensure they route through to the correct location.
 
 ### Navbar
 
-The navbar has been tested on each of the four pages to ensure it links correctly throughout. The logo in the navbar also links to index.html throughout
+The navbar has been tested on each of the four pages to ensure it links correctly throughout. The logo in the navbar also links to index.html throughout.
 
 ### Footer
 
-Across all four pages the four social links within the footer link through to the correct social media link
+Across all four pages the four social links within the footer link through to the correct social media link. They also open in a new tab to keep the user within the web page.
 
 ### Buttons
 
@@ -166,6 +166,14 @@ The various buttons across the site link correctly. There are three variations
 - Book Us - this links through to contact.html where it appears
 - Submit - this appears on contact.html and links to success.html
 - Return to the home page - this is available on success.html and correctly links through to index.html
+
+## Form
+
+The form has validation on the email field ensuring that normal characters alone cannot be entered. If only these entered then the user is prompted to ensure an @ symbol is included.
+
+Additionally, three of the fields are required. 
+
+Both of the above pieces of functionality have been tested and work as expected.
 
 ## Responsiveness
 
@@ -202,7 +210,7 @@ All pages and functionality have been tested in Google Chrome, Firefox and Safar
 
 # Deployment
 
-## Deploying to Github Page
+## Deploying to Github Pages
 
 The project was monitored by utilising the Github pages feature. This was created using the below steps:
 
@@ -219,7 +227,8 @@ Details of this can be found on Github's own [documentation](https://docs.github
 2. Above the list of files, click on the green 'Code' button
 3. For HTTPS integrations, copy the web url given under the 'Local' tab
 4. Within your terminal, navigate to the desired file path. 
-5. Type git clone then paste the code that has been copied (https://github.com/krisjowen/yubaba.git) and hit enter.
+5. Type git clone then paste the code that has been copied (https://github.com/krisjowen/yubaba.git) and hit enter
+6. Any changes pushed to the main branch will automatically push to the deployed version
 
 # Credits
 
